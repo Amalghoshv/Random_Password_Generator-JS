@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M175.8238232398332 367.7742904373215L270.0890988032741 299.2865588263371 201.60136719228976 205.02128326289622 107.33609162884883 273.5090148738806z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M322.283%2c579.358C342.839%2c578.532%2c363.222%2c571.245%2c373.781%2c553.589C384.601%2c535.497%2c382.985%2c513.142%2c372.98%2c494.587C362.387%2c474.942%2c344.599%2c458.435%2c322.283%2c458.082C299.457%2c457.721%2c280.362%2c473.295%2c268.729%2c492.937C256.833%2c513.023%2c250.788%2c538.192%2c263.085%2c558.035C274.926%2c577.143%2c299.821%2c580.26%2c322.283%2c579.358' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1023.6332655585372 51.76237570938038L1122.8773340619236 188.6342368434981 1185.336179997878 54.690809486803886z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M478.3738186137249 445.7809877151227L591.810860115661 547.9201586566477 693.9500310571859 434.4831171547117 580.5129895552499 332.34394621318665z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M331.228%2c292.527C346.868%2c292.607%2c363.445%2c289.68%2c372.001%2c276.588C381.278%2c262.393%2c381.697%2c243.477%2c372.663%2c229.125C364.116%2c215.547%2c347.266%2c211.389%2c331.228%2c211.812C316.049%2c212.213%2c301.439%2c218.326%2c293.416%2c231.217C284.918%2c244.871%2c282.728%2c262.487%2c291.17%2c276.175C299.284%2c289.332%2c315.77%2c292.448%2c331.228%2c292.527' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M367.24883410060727 316.9910775769672L294.9287429046386 424.2100220233922 402.1476873510636 496.5301132193608 474.46777854703225 389.31116877293584z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  
+  font-weight: 1000;
+  padding-top: 5rem;
+  color: coral;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 6remem;
+
+  color: teal;
+}
+h4 {
+  color: rosybrown;
+  
+  font-family: monospace;
+}
+.btn{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #7e97b8;
+    cursor: pointer;
+    background-color: #e0e8ef;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: rgba(255, 255, 255, 0.333);
+    border-radius: 40px 40px 40px 40px;
+    padding: 16px 24px 16px 28px;
+    transform: translate(0px, 0px) rotate(0deg);
+    transition: 0.2s;
+    box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+   }
+   
+   .btn:hover {
+    color: #516d91;
+    font-weight: 700;
+    background-color: #b7d4f1;
+    box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+   }
+ .fname{
+   border:solid #e0e8ef;
+   border-radius: 40px;
+   padding: 10px;
+   background: transparent;
+   color:wheat;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-align: center;
+   font-weight: bold;
+  
+   
+ }
+ .clip{
+   background: transparent;
+   border: none;
+   cursor: pointer;
+ }
+
+ 
